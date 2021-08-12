@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Glorious Wonders</string>
+    <string name="List">View All Sights</string>
+    <string name="Add">Add A Sight</string>
+    <string name="Name">Name Of Place</string>
+    <string name="hint1">Enter Name Of Place</string>
+    <string name="desc">Description</string>
+    <string name="hint2">Enter Description Of The Place</string>
+    <string name="c">Country</string>
+    <string name="hint3">Enter The Country</string>
+    <string name="stars">Star Rater (Low - High)</string>
+
+    <string name="title_activity_second">Show Locations</string>
+    <string name="title_activity_third">Modify Location</string>
+</resources>

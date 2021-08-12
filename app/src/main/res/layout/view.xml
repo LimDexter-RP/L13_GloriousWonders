@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6ECCF"
+    android:orientation="vertical"
+    tools:context=".Second_Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F6ECCF"
+        android:fontFamily="@font/lemon"
+        android:text="@string/Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#1E2959" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F6ECCF"
+        android:fontFamily="sans-serif"
+        android:hint="@string/hint1"
+        android:textColor="#1E2959" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F6ECCF"
+        android:fontFamily="@font/lemon"
+        android:text="@string/desc"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#1E2959" />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F6ECCF"
+        android:fontFamily="sans-serif"
+        android:hint="@string/hint2"
+        android:textColor="#1E2959" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F6ECCF"
+        android:fontFamily="@font/lemon"
+        android:text="@string/c"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#1E2959" />
+
+    <EditText
+        android:id="@+id/etCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F6ECCF"
+        android:fontFamily="sans-serif"
+        android:hint="@string/hint3"
+        android:textColor="#1E2959" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F6ECCF"
+        android:fontFamily="@font/lemon"
+        android:text="@string/stars"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#1E2959" />
+
+    <RatingBar
+        android:id="@+id/ratingBarStars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="2" />
+
+
+</LinearLayout>
